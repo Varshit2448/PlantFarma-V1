@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}{{ product.medicine }} | PlantFarma{% endblock %}
+{% block content %}
+<div class="breadcrumb"><a href="{{ url_for('products.products') }}">Pesticides</a> / {{ product.medicine }}</div>
+
+<div class="detail-card">
+  <div class="detail-icon">🧪</div>
+  <div class="detail-body">
+    <span class="tag">{{ product.treatment_type }}</span>
+    <h1>{{ product.medicine }}</h1>
+    <p class="big-price">{{ product.price }}</p>
+
+    <div class="facts">
+      <div><small>Active ingredient</small><strong>{{ product.active_ingredient }}</strong></div>
+      <div><small>Crop</small><strong>{{ product.crop }}</strong></div>
+      <div><small>Disease</small><strong>{{ product.disease }}</strong></div>
+    </div>
+
+    <h3>Product information</h3>
+    <p class="description">{{ product.description }}</p>
+
+    <form method="POST" action="{{ url_for('cart.add_to_cart', product_id=product.id) }}">
+      <button class="primary large" type="submit">🛒 Add to Cart</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

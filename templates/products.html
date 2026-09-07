@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Pesticides | PlantFarma{% endblock %}
+{% block content %}
+<div class="page-head">
+  <div>
+    <span class="eyebrow">Marketplace</span>
+    <h1>Pesticides & treatments</h1>
+  </div>
+</div>
+
+<form class="search" method="GET">
+  <input name="q" value="{{ q }}" placeholder="Search medicine, crop, disease, ingredient...">
+  <button class="primary" type="submit">Search</button>
+</form>
+
+{% if q %}
+<p class="muted">Results for “{{ q }}” — {{ products|length }} found</p>
+{% endif %}
+
+<div class="product-grid">
+{% for product in products %}
+  <a class="product-card" href="{{ url_for('products.product_detail', product_id=product.id) }}">
+    <div class="product-icon">🧪</div>
+    <div>
+      <h3>{{ product.medicine }}</h3>
+      <p><b>{{ product.treatment_type }}</b></p>
+      <p>{{ product.crop }} · {{ product.disease }}</p>
+      <p>{{ product.active_ingredient }}</p>
+      <span class="price">{{ product.price }}</span>
+    </div>
+  </a>
+{% else %}
+  <div class="empty"><h3>No products found</h3><p>Try another crop, disease, medicine or ingredient.</p></div>
+{% endfor %}
+</div>
+{% endblock %}

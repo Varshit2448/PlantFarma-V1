@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block title %}My Orders | PlantFarma{% endblock %}
+{% block content %}
+<h1>My Orders</h1>
+{% if orders %}
+<div class="orders-list">
+{% for order in orders %}
+  <a class="order-card" href="{{ url_for('orders.tracking', order_id=order.id) }}">
+    <div>
+      <span class="eyebrow">Order #{{ order.id }}</span>
+      <h3>{{ order.items|length }} product(s)</h3>
+      <p>{{ order.ordered_at.strftime("%d %b %Y, %I:%M %p") }}</p>
+    </div>
+    <div class="order-right">
+      <span class="status">{{ order.status }}</span>
+      <strong>₹{{ "%.2f"|format(order.total_amount) }}</strong>
+      <span>Track →</span>
+    </div>
+  </a>
+{% endfor %}
+</div>
+{% else %}
+<div class="empty"><h2>No orders yet</h2><a class="primary button" href="{{ url_for('products.products') }}">Shop now</a></div>
+{% endif %}
+{% endblock %}

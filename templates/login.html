@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Farmer Login | PlantFarma{% endblock %}
+{% block content %}
+<div class="login-page">
+  <div class="login-card">
+    <div class="logo">🌱</div>
+    <h1>PlantFarma</h1>
+    <p class="muted">Farmer & Kisan pesticide marketplace</p>
+
+    <form method="POST">
+      <label>Farmer / Kisan ID</label>
+      <input name="kisan_id" placeholder="Enter Kisan ID" required autofocus>
+
+      <label>Password</label>
+      <input type="password" name="password" placeholder="Enter password" required>
+
+      <button class="primary full" type="submit">Login</button>
+    </form>
+
+    <p class="hint">Demo: <b>KISAN001</b> / <b>farmer123</b></p>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Home | PlantFarma{% endblock %}
+{% block content %}
+<section class="hero">
+  <div>
+    <span class="eyebrow">Welcome, {{ current_user.name }}</span>
+    <h1>Smart farming starts here.</h1>
+    <p>Find crop treatments, order pesticides, and use DocKenny to identify plant diseases from a leaf photo.</p>
+    <div class="actions">
+      <a class="primary button" href="{{ url_for('products.products') }}">Browse pesticides</a>
+      <a class="secondary button" href="{{ url_for('disease.doc_kenny') }}">Try DocKenny</a>
+    </div>
+  </div>
+  <div class="hero-icon">🌾</div>
+</section>
+
+<h2>Featured products</h2>
+<div class="product-grid">
+{% for product in products %}
+  <a class="product-card" href="{{ url_for('products.product_detail', product_id=product.id) }}">
+    <div class="product-icon">🌿</div>
+    <div>
+      <h3>{{ product.medicine }}</h3>
+      <p>{{ product.treatment_type }} · {{ product.active_ingredient }}</p>
+      <span class="price">{{ product.price }}</span>
+    </div>
+  </a>
+{% endfor %}
+</div>
+{% endblock %}

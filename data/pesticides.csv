@@ -1,0 +1,72 @@
+efficientnet_class,crop,disease,medicine,active_ingredient,treatment_type,description,price
+Apple___Apple_scab,Apple,Apple Scab,Indofil M-45,Mancozeb,Fungicide,"Broad-spectrum protective/contact fungicide containing Mancozeb 75% WP; used to control a wide range of fungal diseases and can be used for foliar sprays, nursery drenching and seed treatment.",₹301 (500 g)
+Apple___Black_rot,Apple,Black Rot,Captaf,Captan,Fungicide,Broad-spectrum fungicide containing Captan 50% WP. It provides protective control of fungal diseases and is used as a seed dresser and foliar treatment.,₹180 (250 g)
+Apple___Cedar_apple_rust,Apple,Cedar Apple Rust,Systhane,Myclobutanil,Fungicide,"Broad-spectrum systemic fungicide containing Myclobutanil 10% WP, used for diseases such as powdery mildew, anthracnose and scab.",₹230 (100 g)
+Cherry_(including_sour)___Powdery_mildew,Cherry,Powdery Mildew,Insulf Gold,Sulfur,Fungicide,Broad-spectrum contact and protective fungicide and miticide containing Sulphur 80% WDG. It is used against fungal diseases such as powdery mildew and scab and also supplies sulphur.,₹100 (1 kg)
+Grape___Black_rot,Grape,Black Rot,Indofil M-45,Mancozeb,Fungicide,"Broad-spectrum protective/contact fungicide containing Mancozeb 75% WP; used to control a wide range of fungal diseases and can be used for foliar sprays, nursery drenching and seed treatment.",₹301 (500 g)
+Grape___Esca_(Black_Measles),Grape,Esca (Black Measles),None - no curative pesticide,,Management,No curative pesticide is specified for this treatment record.,
+Grape___Leaf_blight_(Isariopsis_Leaf_Spot),Grape,Leaf Blight,Indofil M-45,Mancozeb,Fungicide,"Broad-spectrum protective/contact fungicide containing Mancozeb 75% WP; used to control a wide range of fungal diseases and can be used for foliar sprays, nursery drenching and seed treatment.",₹301 (500 g)
+Mango___Anthracnose,Mango,Anthracnose,Indofil M-45,Mancozeb,Fungicide,"Broad-spectrum protective/contact fungicide containing Mancozeb 75% WP; used to control a wide range of fungal diseases and can be used for foliar sprays, nursery drenching and seed treatment.",₹301 (500 g)
+Mango___Bacterial Canker,Mango,Bacterial Canker,Blitox,Copper oxychloride,Bactericide,"Copper-based broad-spectrum protective fungicide with bactericidal activity, containing Copper oxychloride 50% WP. It is used against various fungal and bacterial diseases in crops.",₹564 (500 g)
+Mango___Cutting Weevil,Mango,Cutting Weevil,Confidor,Imidacloprid,Insecticide,"Systemic insecticide containing Imidacloprid 17.1% SL, used for controlling sucking pests and other insect pests in crops.",₹392 (100 ml)
+Mango___Die Back,Mango,Die Back,Blitox,Copper oxychloride,Fungicide,"Copper-based broad-spectrum protective fungicide with bactericidal activity, containing Copper oxychloride 50% WP. It is used against various fungal and bacterial diseases in crops.",₹564 (500 g)
+Mango___Gall Midge,Mango,Gall Midge,Confidor,Imidacloprid,Insecticide,"Systemic insecticide containing Imidacloprid 17.1% SL, used for controlling sucking pests and other insect pests in crops.",₹392 (100 ml)
+Mango___Powdery Mildew,Mango,Powdery Mildew,Insulf Gold,Sulfur,Fungicide,Broad-spectrum contact and protective fungicide and miticide containing Sulphur 80% WDG. It is used against fungal diseases such as powdery mildew and scab and also supplies sulphur.,₹100 (1 kg)
+Mango___Sooty Mould,Mango,Sooty Mould,Neem oil 1500 ppm,Neem oil,Management,"Botanical bio-insecticide based on neem/azadirachtin at 1500 ppm. It is used for broad-spectrum management of pests such as aphids, mites and whiteflies.",₹761 (1 litre)
+Orange___Haunglongbing_(Citrus_greening),Orange,Citrus Greening,None - no curative pesticide,,Management,No curative pesticide is specified for this treatment record.,
+Peach___Bacterial_spot,Peach,Bacterial Spot,Blitox,Copper,Bactericide,"Copper-based broad-spectrum protective fungicide with bactericidal activity, containing Copper oxychloride 50% WP. It is used against various fungal and bacterial diseases in crops.",₹564 (500 g)
+"Pepper,_bell___Bacterial_spot",Pepper Bell,Bacterial Spot,Blitox,Copper,Bactericide,"Copper-based broad-spectrum protective fungicide with bactericidal activity, containing Copper oxychloride 50% WP. It is used against various fungal and bacterial diseases in crops.",₹564 (500 g)
+Potato___Early_blight,Potato,Early Blight,Indofil M-45,Mancozeb,Fungicide,"Broad-spectrum protective/contact fungicide containing Mancozeb 75% WP; used to control a wide range of fungal diseases and can be used for foliar sprays, nursery drenching and seed treatment.",₹301 (500 g)
+Potato___Late_blight,Potato,Late Blight,Indofil M-45,Mancozeb,Fungicide,"Broad-spectrum protective/contact fungicide containing Mancozeb 75% WP; used to control a wide range of fungal diseases and can be used for foliar sprays, nursery drenching and seed treatment.",₹301 (500 g)
+Squash___Powdery_mildew,Squash,Powdery Mildew,Insulf Gold,Sulfur,Fungicide,Broad-spectrum contact and protective fungicide and miticide containing Sulphur 80% WDG. It is used against fungal diseases such as powdery mildew and scab and also supplies sulphur.,₹100 (1 kg)
+Strawberry___Leaf_scorch,Strawberry,Leaf Scorch,Captaf,Captan,Fungicide,Broad-spectrum fungicide containing Captan 50% WP. It provides protective control of fungal diseases and is used as a seed dresser and foliar treatment.,₹180 (250 g)
+Tomato___Bacterial_spot,Tomato,Bacterial Spot,Blitox,Copper,Bactericide,"Copper-based broad-spectrum protective fungicide with bactericidal activity, containing Copper oxychloride 50% WP. It is used against various fungal and bacterial diseases in crops.",₹564 (500 g)
+Tomato___Early_blight,Tomato,Early Blight,Indofil M-45,Mancozeb,Fungicide,"Broad-spectrum protective/contact fungicide containing Mancozeb 75% WP; used to control a wide range of fungal diseases and can be used for foliar sprays, nursery drenching and seed treatment.",₹301 (500 g)
+Tomato___Early_blight,Tomato,Early Blight,Amistar,Azoxystrobin,Fungicide,"Broad-spectrum systemic fungicide containing Azoxystrobin 23% SC, used for prevention and control of fungal diseases in crops.",₹705 (100 ml)
+Tomato___Late_blight,Tomato,Late Blight,Indofil M-45,Mancozeb,Fungicide,"Broad-spectrum protective/contact fungicide containing Mancozeb 75% WP; used to control a wide range of fungal diseases and can be used for foliar sprays, nursery drenching and seed treatment.",₹301 (500 g)
+Tomato___Late_blight,Tomato,Late Blight,Ranman,Cyazofamid,Fungicide,"Fungicide containing Cyazofamid 34.5%, designed for Oomycete diseases such as downy mildew and late blight and useful in resistance-management programs.","₹1,019 (listing price; pack size not specified)"
+Tomato___Leaf_Mold,Tomato,Leaf Mold,Kavach,Chlorothalonil,Fungicide,"Broad-spectrum protective/contact fungicide containing Chlorothalonil 75% WP, used for fungal disease control across crops.",₹195 (100 g)
+Tomato___Septoria_leaf_spot,Tomato,Septoria Leaf Spot,Indofil M-45,Mancozeb,Fungicide,"Broad-spectrum protective/contact fungicide containing Mancozeb 75% WP; used to control a wide range of fungal diseases and can be used for foliar sprays, nursery drenching and seed treatment.",₹301 (500 g)
+Tomato___Spider_mites Two-spotted_spider_mite,Tomato,Two-spotted Spider Mite,Vertimec,Abamectin,Acaricide,"Insecticide and acaricide containing Abamectin 1.8% EC. It has translaminar activity and is used against mites, leaf miners, caterpillars and thrips.","₹2,699 (500 ml; comparable Abamectin 1.9% EC product)"
+Tomato___Target_Spot,Tomato,Target Spot,Indofil M-45,Mancozeb,Fungicide,"Broad-spectrum protective/contact fungicide containing Mancozeb 75% WP; used to control a wide range of fungal diseases and can be used for foliar sprays, nursery drenching and seed treatment.",₹301 (500 g)
+Tomato___Tomato_Yellow_Leaf_Curl_Virus,Tomato,Tomato Yellow Leaf Curl Virus,None - no curative pesticide,,Management,No curative pesticide is specified for this treatment record.,
+Tomato___Tomato_mosaic_virus,Tomato,Tomato Mosaic Virus,None - no curative pesticide,,Management,No curative pesticide is specified for this treatment record.,
+coffee___Rust,Coffee,Coffee Rust,Blitox,Copper oxychloride,Fungicide,"Copper-based broad-spectrum protective fungicide with bactericidal activity, containing Copper oxychloride 50% WP. It is used against various fungal and bacterial diseases in crops.",₹564 (500 g)
+coffee___red_spider_mite,Coffee,Red Spider Mite,Vertimec,Abamectin,Acaricide,"Insecticide and acaricide containing Abamectin 1.8% EC. It has translaminar activity and is used against mites, leaf miners, caterpillars and thrips.","₹2,699 (500 ml; comparable Abamectin 1.9% EC product)"
+rice___BrownSpot,Rice,Brown Spot,Indofil M-45,Mancozeb,Fungicide,"Broad-spectrum protective/contact fungicide containing Mancozeb 75% WP; used to control a wide range of fungal diseases and can be used for foliar sprays, nursery drenching and seed treatment.",₹301 (500 g)
+rice___Hispa,Rice,Rice Hispa,Confidor,Imidacloprid,Insecticide,"Systemic insecticide containing Imidacloprid 17.1% SL, used for controlling sucking pests and other insect pests in crops.",₹392 (100 ml)
+rice___LeafBlast,Rice,Leaf Blast,Blastogan,Tricyclazole,Fungicide,"Systemic fungicide containing Tricyclazole 75% WP, particularly used for controlling rice blast and absorbed through plant foliage and roots.",Price on request
+Cotton___Aphids,Cotton,Aphids,Confidor,Imidacloprid,Insecticide,"Systemic insecticide containing Imidacloprid 17.1% SL, used for controlling sucking pests and other insect pests in crops.",₹392 (100 ml)
+Cotton___Bacterial blight,Cotton,Bacterial Blight,Blitox,Copper,Bactericide,"Copper-based broad-spectrum protective fungicide with bactericidal activity, containing Copper oxychloride 50% WP. It is used against various fungal and bacterial diseases in crops.",₹564 (500 g)
+Cotton___Powdery mildew,Cotton,Powdery Mildew,Insulf Gold,Sulfur,Fungicide,Broad-spectrum contact and protective fungicide and miticide containing Sulphur 80% WDG. It is used against fungal diseases such as powdery mildew and scab and also supplies sulphur.,₹100 (1 kg)
+Cotton___Target spot,Cotton,Target Spot,Indofil M-45,Mancozeb,Fungicide,"Broad-spectrum protective/contact fungicide containing Mancozeb 75% WP; used to control a wide range of fungal diseases and can be used for foliar sprays, nursery drenching and seed treatment.",₹301 (500 g)
+Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,Maize,Cercospora Leaf Spot / Gray Leaf Spot,Indofil M-45,Mancozeb,Fungicide,"Broad-spectrum protective/contact fungicide containing Mancozeb 75% WP; used to control a wide range of fungal diseases and can be used for foliar sprays, nursery drenching and seed treatment.",₹301 (500 g)
+Corn_(maize)___Common_rust_,Maize,Common Rust,Tilt,Propiconazole,Fungicide,"Systemic fungicide containing Propiconazole 25% EC, providing disease control across crops and used against a range of fungal diseases.",₹199 (100 ml)
+Corn_(maize)___Northern_Leaf_Blight,Maize,Northern Leaf Blight,Indofil M-45,Mancozeb,Fungicide,"Broad-spectrum protective/contact fungicide containing Mancozeb 75% WP; used to control a wide range of fungal diseases and can be used for foliar sprays, nursery drenching and seed treatment.",₹301 (500 g)
+Alstonia Scholaris___healthy,Alstonia Scholaris,Healthy,,,,,
+Apple___healthy,Apple,Healthy,,,,,
+Arjun___healthy,Arjun,Healthy,,,,,
+Basil___healthy,Basil,Healthy,,,,,
+Blueberry___healthy,Blueberry,Healthy,,,,,
+Cherry_(including_sour)___healthy,Cherry_(including_sour),Healthy,,,,,
+Chinar ___healthy,Chinar,Healthy,,,,,
+Corn_(maize)___healthy,Corn_(maize),Healthy,,,,,
+Cotton___Healthy,Cotton,Healthy,,,,,
+Gauva___healthy,Gauva,Healthy,,,,,
+Grape___healthy,Grape,Healthy,,,,,
+Jamun___healthy,Jamun,Healthy,,,,,
+Jatropha___healthy,Jatropha,Healthy,,,,,
+Lemon___healthy,Lemon,Healthy,,,,,
+Mango ___healthy,Mango,Healthy,,,,,
+Mango___Healthy,Mango,Healthy,,,,,
+Peach___healthy,Peach,Healthy,,,,,
+"Pepper,_bell___healthy","Pepper,_bell",Healthy,,,,,
+Pomegranate___healthy,Pomegranate,Healthy,,,,,
+PongamiaPinnata___healthy,PongamiaPinnata,Healthy,,,,,
+Potato___healthy,Potato,Healthy,,,,,
+Raspberry___healthy,Raspberry,Healthy,,,,,
+Soybean___healthy,Soybean,Healthy,,,,,
+Strawberry___healthy,Strawberry,Healthy,,,,,
+Tomato___healthy,Tomato,Healthy,,,,,
+coffee___healthy,coffee,Healthy,,,,,
+rice___Healthy,rice,Healthy,,,,,

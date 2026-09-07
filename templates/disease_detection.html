@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block title %}DocKenny | PlantFarma{% endblock %}
+{% block content %}
+<div class="page-head">
+  <div>
+    <span class="eyebrow">Unique Feature</span>
+    <h1>DocKenny 🌿</h1>
+    <p class="muted">Upload a leaf photo and get a treatment recommendation.</p>
+  </div>
+</div>
+
+<div class="disease-layout">
+  <div class="upload-card">
+    <h2>Upload leaf image</h2>
+    <form method="POST" enctype="multipart/form-data">
+      <label class="dropzone">
+        <span class="upload-icon">📷</span>
+        <strong>Choose a leaf photo</strong>
+        <small>PNG, JPG, JPEG or WEBP · Max 8 MB</small>
+        <input type="file" name="leaf_image" accept=".png,.jpg,.jpeg,.webp,image/*" required>
+      </label>
+      <button class="primary large full" type="submit">Detect disease</button>
+    </form>
+  </div>
+
+  {% if result %}
+  <div class="result-card">
+    {% if image_url %}
+      <img class="leaf-preview" src="{{ image_url }}" alt="Uploaded leaf">
+    {% endif %}
+    <span class="tag">Detection complete</span>
+    <h2>{{ result.disease }}</h2>
+    <p>Confidence: <strong>{{ result.confidence }}%</strong></p>
+
+    {% if product %}
+      <a class="recommendation" href="{{ url_for('products.product_detail', product_id=product.id) }}">
+        <div class="recommendation-icon">🧪</div>
+        <div>
+          <small>Recommended product</small>
+          <h3>{{ product.medicine }}</h3>
+          <p>{{ product.treatment_type }} · {{ product.active_ingredient }}</p>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+    {% else %}
+      <div class="empty small">
+        <h3>No mapped product</h3>
+        <p>The model class was detected, but there is no matching treatment row in the supplied CSV.</p>
+      </div>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>
+{% endblock %}

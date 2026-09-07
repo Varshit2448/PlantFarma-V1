@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% block title %}Track Order #{{ order.id }} | PlantFarma{% endblock %}
+{% block content %}
+<div class="page-head">
+  <div><span class="eyebrow">Order #{{ order.id }}</span><h1>Order Tracking</h1></div>
+  <span class="status">{{ order.status }}</span>
+</div>
+
+<div class="tracking-card">
+{% set steps = ["Confirmed", "Processing", "Shipped", "Out for delivery", "Delivered"] %}
+{% set current_index = steps.index(order.status) if order.status in steps else 0 %}
+{% for step in steps %}
+  <div class="track-step {% if loop.index0 <= current_index %}active{% endif %}">
+    <div class="dot">{{ "✓" if loop.index0 <= current_index else loop.index }}</div>
+    <span>{{ step }}</span>
+  </div>
+{% endfor %}
+</div>
+
+<div class="checkout-card">
+  <h2>Items</h2>
+  {% for item in order.items %}
+    <div class="summary-row">
+      <span>{{ item.product_name }} × {{ item.quantity }}</span>
+      <span>{{ item.price_text }}</span>
+    </div>
+  {% endfor %}
+  <hr>
+  <div class="summary-row total"><span>Total</span><strong>₹{{ "%.2f"|format(order.total_amount) }}</strong></div>
+
+  {% if order.status != "Delivered" %}
+  <form method="POST" action="{{ url_for('orders.advance_tracking', order_id=order.id) }}" class="demo-track">
+    <button class="secondary" type="submit">Demo: advance tracking status</button>
+  </form>
+  {% endif %}
+</div>
+{% endblock %}

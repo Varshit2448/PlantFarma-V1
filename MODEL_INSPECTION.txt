@@ -1,0 +1,20 @@
+{
+  "source_csv_rows": 71,
+  "source_csv_columns": [
+    "efficientnet_class",
+    "crop",
+    "disease",
+    "medicine",
+    "active_ingredient",
+    "treatment_type",
+    "description",
+    "price"
+  ],
+  "model_input": [
+    224,
+    224,
+    3
+  ],
+  "model_output_classes": 80,
+  "note": "Model config inspected; class-name metadata is not embedded in the .keras file."
+}
