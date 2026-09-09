@@ -72,7 +72,7 @@ The default connection is:
 - Host: `localhost`
 - Port: `3306`
 - User: `root`
-- Password: `varshit2004`
+- Password: `YOUR_PASSWORD`
 - Database: `plantfarma`
 
 For real deployment, set these using environment variables instead of keeping passwords in source code.
