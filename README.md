@@ -199,3 +199,5 @@ This is a complete academic/project prototype. Before real-world pharmaceutical/
 - rate limiting
 - validated regulatory/product information
 - appropriate safety and usage warnings
+
+## This version's rights are reserved and can't be used as a patent or any kind of use
